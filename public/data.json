@@ -1,0 +1,75 @@
+[
+  {
+    "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+    "category": "GYM",
+    "name": "HEALTH ACCESSORIZE",
+    "desc": "If you do gym, your body will be better, and you will get extra energy for all activities. Every person should go to the gym regularly to maintain their health",
+    "age": "20-30",
+    "img": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Z3ltJTIwbWVufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
+    "time": "20"
+  },
+  {
+    "id": "13cbc7ed-a61b-4883-9d42-82d7d8642b86",
+    "category": "GYM",
+    "name": "JOGGING",
+    "desc": "If you do gym, your body will be better, and you will get extra energy for all activities. Every person should go to the gym regularly to maintain their health",
+    "age": "20-35",
+    "img": "https://images.unsplash.com/photo-1483721310020-03333e577078?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGd5bSUyMG1lbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+    "time": "30"
+  },
+  {
+    "id": "307f166f-1d04-4573-bc37-2f461ea9d4f7",
+    "category": "GYM",
+    "name": "KEEP SMILING",
+    "desc": "If you do gym, your body will be better, and you will get extra energy for all activities. Every person should go to the gym regularly to maintain their health",
+    "age": "40-60",
+    "img": "https://media.istockphoto.com/photos/mature-man-in-health-club-picture-id667855148?b=1&k=20&m=667855148&s=170667a&w=0&h=zKum86uTwdxHpn96RrpNkHXI211oUSz-qLK7yVNXmug=",
+    "time": "2"
+  },
+  {
+    "id": "4bf9798f-63bc-4a83-b0c6-6a3b816fe922",
+    "category": "ACCESSORIZE",
+    "name": "CYCLING",
+    "desc": "If you do gym, your body will be better, and you will get extra energy for all activities. Every person should go to the gym regularly to maintain their health",
+    "age": "15-35",
+    "img": "https://images.unsplash.com/photo-1517649763962-0c623066013b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8c3BvcnRzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
+    "time": "20"
+  },
+  {
+    "id": "9496d72b-04ec-41f8-9bc3-0a7c9697be8e",
+    "category": "SPORTS",
+    "name": "COUNTY COOK",
+    "desc": "If you do gym, your body will be better, and you will get extra energy for all activities. Every person should go to the gym regularly to maintain their health",
+    "age": "25-65",
+    "img": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8c3BvcnRzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
+    "time": "20"
+  },
+  {
+    "id": "6e5593d3-557b-43cf-8dab-a5140faedfb0",
+    "category": "SPORTS",
+    "name": "VOLLEY",
+    "desc": "If you do gym, your body will be better, and you will get extra energy for all activities. Every person should go to the gym regularly to maintain their health",
+    "age": "25-45",
+    "img": "https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHNwb3J0c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+    "time": "20"
+  },
+  {
+    "id": "9c0c13c2-54e4-4001-809b-afbd9d84037d",
+    "category": "SPORTS",
+    "name": "SKIING",
+    "desc": "If you do gym, your body will be better, and you will get extra energy for all activities. Every person should go to the gym regularly to maintain their health",
+    "age": "18-30",
+    "img": "https://images.unsplash.com/photo-1565992441121-4367c2967103?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHNwb3J0c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+    "time": "20"
+  },
+  {
+    "id": "c9d1f410-d28f-49d9-9b01-d759b5acbeea",
+    "category": "STUDY",
+    "name": "STUDY IMPORTANT",
+    "desc": "If you do gym, your body will be better, and you will get extra energy for all activities. Every person should go to the gym regularly to maintain their health",
+    "age": "18-30",
+    "img": "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8c3R1ZHl8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60",
+    "time": "20"
+  }
+  
+]
