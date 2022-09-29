@@ -14,8 +14,10 @@
 .cart-container{
     background-color: white;
     box-shadow: 8px 8px 12px gray;
-    position: sticky;
-    top: 0;
+    margin-bottom: 30px;
+}
+.cart-container div{
+    margin: 10px 5px;
 }
 @media screen and (max-width: 570px) {
     .items-container{

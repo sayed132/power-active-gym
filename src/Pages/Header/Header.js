@@ -12,7 +12,7 @@ const Header = () => {
             <div className="d-none d-md-flex header-link">
                 <a href="/home">Home</a>
                 <a href="/login">Login</a>
-                <a href="/blog">Blog</a>
+                <a href="#blog">Blog</a>
             </div>
         </nav>
     );
