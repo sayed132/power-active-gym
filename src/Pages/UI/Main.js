@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Break from '../Break/Break';
+
 import Cart from '../Cart/Cart';
 import Exercise from '../Exercise/Exercise';
 import Item from '../Item/Item';
@@ -9,7 +9,11 @@ import './Main.css';
 const Main = () => {
 
     const [items, setItems] = useState([]);
-    const [cart, setAddCart] = useState([])
+    const [cart, setAddCart] = useState([]);
+    
+
+
+    
 
     const handleAddToList = (item)=>{
         console.log(item);
@@ -41,7 +45,7 @@ const Main = () => {
                 
                     <Cart></Cart>
                     <Personal></Personal>
-                    <Break></Break>
+                    
                     <Exercise 
                     cart={cart}
                     ></Exercise>

@@ -13,7 +13,7 @@ const Item = (props) => {
                 <p className='fw-bold text-warning mt-2'>Age: {age}</p>
                 <p className='text-info'>Time: {time}s</p>
             </div>
-            <button onClick={() => props.handleAddToList(props.item)}  className='w-100 border-0 btn btn-primary'>Add to list</button>
+            <button  onClick={() => props.handleAddToList(props.item)}  className='w-100 border-0 btn btn-primary'>Add to list</button>
         </div>
     );
 };
