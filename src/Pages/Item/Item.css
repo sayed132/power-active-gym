@@ -1,0 +1,20 @@
+.item img{
+    width: 250px;
+    height: 130px;
+    border-radius: 8px;
+}
+.item{
+    width: 270px;
+    border-radius: 8px;
+    background-color: rgb(245, 242, 240);
+    box-shadow: 8px 8px 12px gray;
+    padding: 10px;
+}
+.items-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 36px;
+}
+.item-info{
+    margin-top: 10px;
+}
