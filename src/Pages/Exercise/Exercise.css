@@ -1,0 +1,10 @@
+.total-time{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 15px;
+    padding: 10px;
+}
+.total-time p{
+    margin-bottom: 0;
+}

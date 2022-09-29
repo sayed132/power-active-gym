@@ -2,8 +2,8 @@ import React from 'react';
 import './Item.css';
 
 const Item = (props) => {
-    console.log(props.item);
-    const {name, img, age, desc, time} = props.item
+    const {name, img, age, desc, time} = props.item;
+    
     return (
         <div className='item'>
             <img src={img} alt="" />
@@ -13,7 +13,7 @@ const Item = (props) => {
                 <p className='fw-bold text-warning mt-2'>Age: {age}</p>
                 <p className='text-info'>Time: {time}s</p>
             </div>
-            <button className='w-100 border-0 btn btn-primary'>Add To Cart</button>
+            <button onClick={() => props.handleAddToList(props.item)}  className='w-100 border-0 btn btn-primary'>Add to list</button>
         </div>
     );
 };
