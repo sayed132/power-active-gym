@@ -9,18 +9,19 @@ const Exercise = ({ cart }) => {
         const toItem = parseInt(item.time);
         totalTime = toParse + toItem
     }
-    const [text, setText] = useState("")
+    const [breakTime, setBreakTime] = useState(0 )
+    
 
     return (
         <div>
             <div>
                 <h6 className='ms-3 fw-bold'>Add A Break</h6>
                 <div className='timer  bg-success bg-opacity-10 m-3  rounded'>
-                    <button > <span  onClick={(e)=>setText(e.target.innerText)}  >10</span><small>s</small></button>
-                    <button ><span  onClick={(e)=>setText(e.target.innerText)}  >20</span><small>s</small></button>
-                    <button><span  onClick={(e)=>setText(e.target.innerText)}  >30</span><small>s</small></button>
-                    <button><span  onClick={(e)=>setText(e.target.innerText)}  >40</span><small>s</small></button>
-                    <button><span  onClick={(e)=>setText(e.target.innerText)}  >50</span><small>s</small></button>
+                    <button > <span onClick={(e)=>setBreakTime(e.target.innerText)}>10</span><small>s</small></button>
+                    <button ><span  onClick={(e)=>setBreakTime(e.target.innerText)}  >20</span><small>s</small></button>
+                    <button><span  onClick={(e)=>setBreakTime(e.target.innerText)}  >30</span><small>s</small></button>
+                    <button><span  onClick={(e)=>setBreakTime(e.target.innerText)}  >40</span><small>s</small></button>
+                    <button><span  onClick={(e)=>setBreakTime(e.target.innerText)}  >50</span><small>s</small></button>
                 </div>
             </div>
             <div>
@@ -31,7 +32,7 @@ const Exercise = ({ cart }) => {
                 </div>
                 <div className=' total-time  bg-success bg-opacity-10  rounded d-flex'>
                     <p className='text-muted fw-bold'>Break Time</p>
-                    <p>{text} <small>seconds</small></p>
+                    <p>{breakTime}<small>seconds</small></p>
                 </div>
                 <div className='mx-3 mt-5'>
                     <button className='btn btn-primary w-100'>Activity Completed</button>
