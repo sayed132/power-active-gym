@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Header from './Pages/Header/Header';
 import Main from './Pages/UI/Main';

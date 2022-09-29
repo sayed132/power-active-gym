@@ -1,6 +1,12 @@
-import React, { useState } from 'react';
-import './Exercise.css'
+import React, { useEffect, useState } from 'react';
+import './Exercise.css';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+import Swal from 'sweetalert2'
+
 const Exercise = ({ cart }) => {
+    
     
 
     let totalTime = 0;
@@ -9,8 +15,30 @@ const Exercise = ({ cart }) => {
         const toItem = parseInt(item.time);
         totalTime = toParse + toItem
     }
+    const notify = () => toast("Wow so easy!");
     const [breakTime, setBreakTime] = useState(0 )
-    
+    // useEffect(() => {
+    //     const prevBookmark = localStorage.getItem("BreakTime");
+    //     const oldBookmark = JSON.parse(prevBookmark);
+    //     if(oldBookmark){
+    //         console.log('acheee');
+    //     }
+    //     else{
+    //         console.log('naiiiii');
+    //     }
+    //     setBreakTime(oldBookmark)
+    // }, [])
+    useEffect(()=>{
+        localStorage.setItem('breakTime', JSON.stringify(breakTime))
+    }, [breakTime])
+
+    const success = ()=>{
+        Swal.fire(
+            'Good job!',
+            'You Finished The Exorcize!',
+            'success'
+          )
+    }
 
     return (
         <div>
@@ -35,7 +63,7 @@ const Exercise = ({ cart }) => {
                     <p>{breakTime}<small>seconds</small></p>
                 </div>
                 <div className='mx-3 mt-5'>
-                    <button className='btn btn-primary w-100'>Activity Completed</button>
+                    <button onClick={success}  className='btn btn-primary w-100'>Activity Completed</button>
                 </div>
             </div>
 
