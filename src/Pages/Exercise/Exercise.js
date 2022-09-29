@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import './Exercise.css';
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
 
 import Swal from 'sweetalert2'
 
@@ -15,22 +13,14 @@ const Exercise = ({ cart }) => {
         const toItem = parseInt(item.time);
         totalTime = toParse + toItem
     }
-    const notify = () => toast("Wow so easy!");
+    
     const [breakTime, setBreakTime] = useState(0 )
-    // useEffect(() => {
-    //     const prevBookmark = localStorage.getItem("BreakTime");
-    //     const oldBookmark = JSON.parse(prevBookmark);
-    //     if(oldBookmark){
-    //         console.log('acheee');
-    //     }
-    //     else{
-    //         console.log('naiiiii');
-    //     }
-    //     setBreakTime(oldBookmark)
-    // }, [])
+   
     useEffect(()=>{
         localStorage.setItem('breakTime', JSON.stringify(breakTime))
     }, [breakTime])
+
+    
 
     const success = ()=>{
         Swal.fire(
