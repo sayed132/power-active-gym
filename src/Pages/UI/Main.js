@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 
-import Cart from '../Cart/Cart';
 import Exercise from '../Exercise/Exercise';
 import Item from '../Item/Item';
 import Personal from '../PersonalInfo/Personal';
@@ -42,7 +41,7 @@ const Main = () => {
             </div>
             <div className="cart-container">
                 
-                    <Cart></Cart>
+                    
                     <Personal></Personal>
                     
                     <Exercise 

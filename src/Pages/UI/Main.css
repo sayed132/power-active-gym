@@ -11,7 +11,12 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 36px;
 }
-
+.cart-container{
+    background-color: white;
+    box-shadow: 8px 8px 12px gray;
+    position: sticky;
+    top: 0;
+}
 @media screen and (max-width: 570px) {
     .items-container{
         display: grid;
